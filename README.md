@@ -4,14 +4,14 @@ A browser-based diagram generator for the board game [Hive](https://www.gen42.co
 
 ![Hive Print screenshot](screenshot.png)
 
-**[→ Try it live](https://erickenneth.github.io/hive-print)**
+**[→ Try it live](https://erickenneth.github.io/hive-visualizer)**
 
 ---
 
 ## Features
 
 - **UHP input** — paste any Universal Hive Protocol string directly
-- **JSON input** — cube coordinate format also supported
+- **JSON input** — cube coordinate format also supported (work in progress)
 - **SVG & PNG export** — vector output for print, raster for web
 - **Two built-in icon sets** — Lite Color and Lite B&W, ready out of the box
 - **Custom SVG icons** — drop in your own piece artwork
@@ -20,6 +20,7 @@ A browser-based diagram generator for the board game [Hive](https://www.gen42.co
 - **Fully adjustable layout** — cell size, icon scale, padding, colors, diagram width
 - **Base game + expansions** — M (Mosquito), L (Ladybug), P (Pillbug), D (Dragonfly)
 
+
 ## How to use
 
 1. Open the tool in your browser
@@ -27,6 +28,7 @@ A browser-based diagram generator for the board game [Hive](https://www.gen42.co
 3. Add a title, subtitle, and caption if needed
 4. Adjust the icon set, size, and colors to taste
 5. Export as **SVG** (for print / Illustrator / Inkscape) or **PNG**
+
 
 ### UHP format
 
@@ -47,10 +49,17 @@ Work in progress. Known gaps:
 
 - Header doesn't accept Base+MLPD
 - No rotation 
-- Others
+- Json still not supported
 
 Feedback and contributions welcome.
+
+## Examples
+
+![](hive-diagram-color.png)
+![](hive-diagram-bnw.png)
 
 ## License
 
 MIT © EricKenneth
+
+
